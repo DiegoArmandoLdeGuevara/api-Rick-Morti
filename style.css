@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/200/433/178/rick-and-morty-cartoons-tv-shows-hd-wallpaper-preview.jpg");
+    background-color: #fff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Peralta',cursive;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.img-container{
+    max-width: 30rem;
+    display: flex;
+    margin: 1rem;
+
+}
+.rick{
+    height: 15rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+}
+
+.morty{
+    height: 15rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+}
+#container{
+    background-color: rgb(255, 255, 255,0.473);
+    backdrop-filter: blur(5px);
+    margin: 1rem;
+    border: 1.5px solid rgb(209, 213, 219,0726);
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.container_bottons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 135%;
+}
+button{
+    width: 1rem;
+    height: 3rem;
+    border: #fff;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+#next{
+    clip-path: polygon(99% 52%, 0 0, 0 100%);
+    background-color: green;
+}
+#pre{
+    clip-path: polygon(0 57%, 100% 0, 100% 100%);
+    background-color: red;
+
+}
